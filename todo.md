@@ -10,9 +10,9 @@
 
 # Client
 
-* Should request `/cotacao` from `server`
-* Should receive only `bid` from `server`
-* Timeout
-  * Server -> `300ms` 
-* Save response into `cotacao.txt`
-  ``Dólar: {value}`` 
+* ~~Should request `/cotacao` from `server`~~
+* ~~Should receive only `bid` from `server`~~
+* ~~Timeout~~
+  * ~~Server -> `300ms`~~ 
+* ~~Save response into `cotacao.txt`
+  ``Dólar: {value}``~~

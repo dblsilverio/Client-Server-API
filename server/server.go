@@ -19,7 +19,7 @@ func main() {
 
 }
 
-func ExchangeHandler(w http.ResponseWriter, r *http.Request) {
+func ExchangeHandler(w http.ResponseWriter, _ *http.Request) {
 	w.Header().Set("Content-Type", "text/plain")
 
 	exchange, err := FetchExchange()

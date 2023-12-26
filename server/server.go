@@ -31,7 +31,7 @@ func ExchangeHandler(w http.ResponseWriter, _ *http.Request) {
 
 	entity, err := SaveExchangeInfo(exchange)
 	if err != nil {
-		log.Printf("SaveExchange Info faield: %s\n", err)
+		log.Printf("SaveExchange Info failed: %s\n", err)
 		w.WriteHeader(http.StatusInternalServerError)
 		return
 	}
